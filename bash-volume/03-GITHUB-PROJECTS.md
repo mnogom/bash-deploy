@@ -1,10 +1,10 @@
 # GitHub проекты
 ## 😽 Пет-проекты:
-* [freidl.in](http://freidl.in) - Personal site:
+* [freidl.in](http://freidl.in) - Сайт-визитка:
     * [Backend](https://github.com/mnogom/bash-backend)
     * [Frontend](https://github.com/mnogom/bash-frontend)
     * [Prod config]()
-* [Minesweeper](https://mine.aloy.xyz) - I'm so embarrassed, but in 2018 I did [this](https://github.com/mnogom/minesweeper). My first web project. I'll rewrite it.
+* [Minesweeper](https://mine.aloy.xyz) - Стыдно, но в 2018 я написал [это](https://github.com/mnogom/minesweeper). Первый мой фуллстек-проект. Однажды я перепишу его
 * [Project scenes](https://scene.aloy.xyz/) - Проект позволяющий интерактивно работать со световыми сценариями. Для работы CD реализовывал утилиту [Beag](https://github.com/mnogom/beget-agent)
 * [Task Manager](https://github.com/mnogom/task_manager) - Трекер задач (#2). REST API для работы с задачами
 
