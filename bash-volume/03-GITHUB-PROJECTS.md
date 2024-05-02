@@ -9,7 +9,7 @@
 * [Task Manager](https://github.com/mnogom/task_manager) - Трекер задач (#2). REST API для работы с задачами
 
 ## 🧷 Тестовые проекты:
-* [PathFinder](https://github.com/mnogom/pathfinder) - Утилита для поиска пути на RGB-картинке с использование алгоритма "A*"
+* [PathFinder](https://github.com/mnogom/pathfinder) - Утилита для поиска пути на RGB-картинке с использование алгоритма "A\*"
 * [sea-battle](https://github.com/mnogom/sea-battle) - Игра "Морской бой" с ИИ! (~~библиотекой "random"~~)
 * [FizzBuzz](https://github.com/mnogom/FizzBuzz) - Утилита для конвертации числа в FizzBuzz нотацию
 * [proxy-tm](https://github.com/mnogom/proxy-tm) - Прокси™ для сайта news.ycombinator.com
@@ -30,7 +30,7 @@
   * [JavaScript](https://github.com/mnogom/frontend-project-lvl1)
 
 ## 📓 Шпаргалки:
-* [_empty](https://github.com/mnogom/_empty) - Старые джуновские заметки для фуллстек разработки (Django REST Framework, Vue.js) - не завершён, и кажется не завершится
+* [empty](https://github.com/mnogom/_empty) - Старые джуновские заметки для фуллстек разработки (Django REST Framework, Vue.js) - не завершён, и кажется не завершится
 
 ## 📄 [Сниппеты](https://gist.github.com/mnogom)
 
