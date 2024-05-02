@@ -1,0 +1,29 @@
+services:
+  backend:
+    env_file:
+      - ./bash-backend/.env
+    build:
+      context: ./bash-backend
+      dockerfile: Dockerfile
+      target: production
+    hostname: freidlin
+    dns: ["0.0.0.0"]
+    networks:
+      - bash-network
+    volumes:
+      - ./bash-volume:/home/konstantin/:ro
+
+  nginx:
+    build:
+      context: ./bash-frontend
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
+    networks:
+      - bash-network
+
+networks:
+  bash-network:
+
+volumes:
+  bash-volume:
