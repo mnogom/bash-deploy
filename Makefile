@@ -1,3 +1,5 @@
+
+
 run-local:
 	@echo "=== 👾 Running local prod ==="
 	docker compose --file docker-compose.local.yml up --build --force-recreate
@@ -10,7 +12,7 @@ pull:
 	@echo "=== 🚨 Pull images ==="
 	docker compose pull
 
-run:
+run: pull
 	@echo "=== 👾 Running prod ==="
 	docker compose up -d --force-recreate
 

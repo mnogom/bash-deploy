@@ -29,10 +29,9 @@
 make run-local
 ```
 
-#### vps
+#### vps (pull & run)
 ```bash
 make stop
-make pull
 make run
 ```
 
