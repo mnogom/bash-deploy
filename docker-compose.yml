@@ -4,15 +4,19 @@ services:
     image: mnogom/bash-backend:latest
     hostname: freidlin
     dns: ["0.0.0.0"]
+    restart: always
     networks:
       - bash-network
+#    volumes:
+#      - ./bash-volume:/home/konstantin/
 
   nginx:
     image: mnogom/bash-frontend:latest
+    restart: always
     ports:
       - 80:80
     networks:
       - bash-network
 
-networks:
-  bash-network:
+#networks:
+#  bash-network:
