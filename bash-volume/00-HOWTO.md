@@ -16,7 +16,7 @@
 весь код лежит в открытом доступе на моём [GitHub](https://github.com/mnogom)
 * [Backend](https://github.com/mnogom/bash-backend/)
 * [Frontend](https://github.com/mnogom/bash-frontend)
-* [VPS config]()
+* [Deploy config](https://github.com/mnogom/bash-deploy)
 
 > Если что-то получится сломать - напиши, пожалуйста, [issue](https://github.com/mnogom/bash-backend/issues) или
 в мой telegram [@mnogo_m](https://t.me/mnogo_m)
