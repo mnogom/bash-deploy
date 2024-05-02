@@ -18,5 +18,6 @@
 * [Frontend](https://github.com/mnogom/bash-frontend)
 * [Deploy config](https://github.com/mnogom/bash-deploy)
 
-> Если что-то получится сломать - напиши, пожалуйста, [issue](https://github.com/mnogom/bash-backend/issues) или
+> Если что-то получится сломать - напиши, пожалуйста, 
+[issue](https://github.com/mnogom/bash-backend/issues) или
 в мой telegram [@mnogo_m](https://t.me/mnogo_m)
