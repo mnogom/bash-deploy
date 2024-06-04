@@ -7,8 +7,6 @@ services:
     restart: always
     networks:
       - bash-network
-#    volumes:
-#      - ./bash-volume:/home/konstantin/
 
   nginx:
     image: mnogom/bash-frontend:latest
@@ -18,5 +16,5 @@ services:
     networks:
       - bash-network
 
-#networks:
-#  bash-network:
+networks:
+  bash-network:
