@@ -10,8 +10,8 @@ services:
     dns: ["0.0.0.0"]
     networks:
       - bash-network
-    volumes:
-      - ./bash-volume:/home/konstantin/:ro
+#    volumes:
+#      - ./bash-volume:/home/konstantin/:ro
 
   nginx:
     build:
@@ -25,5 +25,5 @@ services:
 networks:
   bash-network:
 
-volumes:
-  bash-volume:
+#volumes:
+#  bash-volume:
