@@ -1,5 +1,6 @@
 services:
   backend:
+    container_name: backend
     env_file: .env
     image: mnogom/bash-backend:latest
     hostname: freidlin
@@ -9,6 +10,7 @@ services:
       - bash-network
 
   nginx:
+    container_name: nginx
     image: mnogom/bash-frontend:latest
     restart: always
     ports:

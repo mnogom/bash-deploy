@@ -1,4 +1,4 @@
-### Project structure
+# Project structure
 ```bash
 .
 ├── Makefile
@@ -22,20 +22,31 @@
 └── ...
 ```
 
-### Run
+# Run
 
-#### local
+## local
 ```bash
 make run-local
 ```
 
-#### vps (pull & run)
-```bash
+## vps (pull & run)
+### first run
+1. Run without ssl
+```
+make run-no-ssl
+```
+2. Create certificates
+```
+make create-cert
+```
+3. Stop and run ssl config
+```
 make stop
-make run
+make run-ssl
 ```
 
-### Roadmap
-* ssl
+# Roadmap
 * Sentry
-* Grafana?
+* Grafana
+* Reload container by healthcheck
+* Load files to volume ?

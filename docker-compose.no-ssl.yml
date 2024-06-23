@@ -1,22 +1,18 @@
 services:
   backend:
     container_name: backend
-    env_file:
-      - ./bash-backend/.env
-    build:
-      context: ./bash-backend
-      dockerfile: Dockerfile
-      target: production
+    env_file: .env
+    image: mnogom/bash-backend:latest
     hostname: freidlin
     dns: ["0.0.0.0"]
+    restart: always
     networks:
       - bash-network
 
   nginx:
     container_name: nginx
-    build:
-      context: ./bash-frontend
-      dockerfile: Dockerfile.no-ssl
+    image: mnogom/bash-frontend-without-ssl:latest
+    restart: always
     ports:
       - 80:80
     networks:
