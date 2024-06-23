@@ -30,8 +30,11 @@ make run-local
 ```
 
 ## vps (pull & run)
-### first run
-1. Run without ssl
+0. Create .env **and fill**
+```
+cp .env.example .env
+```
+1. Run without ssl (for first run)
 ```
 make run-no-ssl
 ```
@@ -42,7 +45,11 @@ make create-cert
 3. Stop and run ssl config
 ```
 make stop
-make run-ssl
+make run
+```
+4. Update ssl cert
+```
+make renew-cert
 ```
 
 # Roadmap
@@ -50,3 +57,4 @@ make run-ssl
 * Grafana
 * Reload container by healthcheck
 * Load files to volume ?
+* Automate renew certificate
