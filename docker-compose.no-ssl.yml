@@ -11,7 +11,7 @@ services:
 
   nginx:
     container_name: nginx
-    image: mnogom/bash-frontend-without-ssl:latest
+    image: mnogom/bash-frontend-no-ssl:latest
     restart: always
     ports:
       - 80:80
