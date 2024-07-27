@@ -43,6 +43,10 @@ log:
 	@echo "=== 📖 Show logs ==="
 	docker compose logs --follow
 
+log-backend:
+	@echo "=== 📖 Show logs ==="
+	docker compose logs backend --follow
+
 # ======================================================
 # SSL
 # ======================================================
