@@ -16,7 +16,8 @@ services:
     container_name: nginx
     build:
       context: ./bash-frontend
-      dockerfile: Dockerfile.no-ssl
+      dockerfile: Dockerfile
+      target: no-ssl
     ports:
       - 80:80
     networks:
