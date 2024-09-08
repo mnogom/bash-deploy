@@ -8,6 +8,8 @@ services:
     restart: always
     networks:
       - bash-network
+    volumes:
+      - ./bash-volume:/home/konstantin:ro
 
   nginx:
     container_name: nginx
